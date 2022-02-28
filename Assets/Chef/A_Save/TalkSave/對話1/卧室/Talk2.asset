@@ -1,0 +1,96 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 468bbd4c295446247a5c9fc044a06402, type: 3}
+  m_Name: Talk2
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []
+  Talk:
+  - TalkName: 
+    TalkInfo: 
+    Talk_Event: 1
+    Talk_Style: {fileID: 0}
+    Talk_CV: {fileID: 0}
+    Other_Evnet: 4
+    other_event_arg1: 5
+    other_event_arg2: 
+    other_event_arg3: 
+  - TalkName: "\u6797\u548C\u5B89"
+    TalkInfo: "\u8FD9\u91CC\u5230\u5E95\u662F...?\r"
+    Talk_Event: 0
+    Talk_Style: {fileID: 0}
+    Talk_CV: {fileID: 0}
+    Other_Evnet: 16
+    other_event_arg1: 1
+    other_event_arg2: 
+    other_event_arg3: 
+  - TalkName: "\u6797\u548C\u5B89"
+    TalkInfo: "\u597D\u50CF\u53D1\u751F\u8FC7\u4EC0\u4E48\u4E8B\u60C5,\u4E0D\u77E5\u4E3A\u4F55\u6211\u6CA1\u6709\u4E86\u8BB0\u5FC6\r"
+    Talk_Event: 0
+    Talk_Style: {fileID: 0}
+    Talk_CV: {fileID: 0}
+    Other_Evnet: 4
+    other_event_arg1: 10
+    other_event_arg2: 
+    other_event_arg3: 
+  - TalkName: 
+    TalkInfo: 
+    Talk_Event: 1
+    Talk_Style: {fileID: 0}
+    Talk_CV: {fileID: 0}
+    Other_Evnet: 16
+    other_event_arg1: 0
+    other_event_arg2: 
+    other_event_arg3: 
+  - TalkName: 
+    TalkInfo: 
+    Talk_Event: 1
+    Talk_Style: {fileID: 0}
+    Talk_CV: {fileID: 0}
+    Other_Evnet: 1
+    other_event_arg1: "\u4EBA\u7269"
+    other_event_arg2: 
+    other_event_arg3: 
+  - TalkName: 
+    TalkInfo: 
+    Talk_Event: 1
+    Talk_Style: {fileID: 0}
+    Talk_CV: {fileID: 0}
+    Other_Evnet: 2
+    other_event_arg1: "\u4EBA\u7269"
+    other_event_arg2: "\u7537\u4E3B\u7B11"
+    other_event_arg3: Left
+  - TalkName: "\u6797\u548C\u5B89"
+    TalkInfo: ......
+    Talk_Event: 0
+    Talk_Style: {fileID: 0}
+    Talk_CV: {fileID: 0}
+    Other_Evnet: 0
+    other_event_arg1: 
+    other_event_arg2: 
+    other_event_arg3: 
+  - TalkName: "\u6797\u548C\u5B89"
+    TalkInfo: "\u603B\u4E4B\u5148\u627E\u627E\u51FA\u53E3\u5427"
+    Talk_Event: 0
+    Talk_Style: {fileID: 0}
+    Talk_CV: {fileID: 0}
+    Other_Evnet: 0
+    other_event_arg1: 
+    other_event_arg2: 
+    other_event_arg3: 

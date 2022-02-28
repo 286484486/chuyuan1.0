@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a6b194f808b1af6499c93410e504af42, type: 3}
+  m_Name: role_show_victory_final_Atlas
+  m_EditorClassIdentifier: 
+  atlasFile: {fileID: 4900000, guid: 917558f2e78d8c44eb19d716bc12017d, type: 3}
+  materials:
+  - {fileID: 2100000, guid: c053e16e16ed1084a8624625a89840b7, type: 2}
+  - {fileID: 2100000, guid: 69952a9895372d44da060e6649ed666f, type: 2}
+  - {fileID: 2100000, guid: 5327327e4a1267f45bdbfef095c6ba42, type: 2}
+  - {fileID: 2100000, guid: 9191ced80e1e13944a2772b6f076e7d8, type: 2}

@@ -1,0 +1,69 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 468bbd4c295446247a5c9fc044a06402, type: 3}
+  m_Name: "\u5728\u5367\u5BA4\u82CF\u9192"
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []
+  Talk:
+  - TalkName: 
+    TalkInfo: 
+    Talk_Event: 1
+    Talk_Style: {fileID: 0}
+    Talk_CV: {fileID: 0}
+    Other_Evnet: 1
+    other_event_arg1: "\u7537\u4E3B"
+    other_event_arg2: 
+    other_event_arg3: 
+  - TalkName: "\u6797\u548C\u5B89"
+    TalkInfo: "\u6211\u8FD9\u662F\u5728\u54EA\uFF1F"
+    Talk_Event: 0
+    Talk_Style: {fileID: 0}
+    Talk_CV: {fileID: 0}
+    Other_Evnet: 2
+    other_event_arg1: "\u7537\u4E3B"
+    other_event_arg2: "\u7537\u4E3B\u7B11"
+    other_event_arg3: left
+  - TalkName: 
+    TalkInfo: "\uFF08\u7EB8\u5316\u7684\u602A\u7269\u7A81\u7136\u5728\u9762\u524D\u95EA\u73B0\uFF01\uFF01\uFF01\uFF09"
+    Talk_Event: 0
+    Talk_Style: {fileID: 0}
+    Talk_CV: {fileID: 0}
+    Other_Evnet: 2
+    other_event_arg1: 10
+    other_event_arg2: 
+    other_event_arg3: 
+  - TalkName: "\u6797\u548C\u5B89"
+    TalkInfo: "\uFF01\uFF01\uFF01"
+    Talk_Event: 0
+    Talk_Style: {fileID: 0}
+    Talk_CV: {fileID: 0}
+    Other_Evnet: 2
+    other_event_arg1: "\u7537\u4E3B"
+    other_event_arg2: "\u7537\u4E3B\u7B11"
+    other_event_arg3: 
+  - TalkName: "\u6797\u548C\u5B89"
+    TalkInfo: "\u521A\u521A\u90A3\u662F\u4EC0\u4E48\uFF1F\u5E7B\u89C9\u5417\uFF1F"
+    Talk_Event: 0
+    Talk_Style: {fileID: 0}
+    Talk_CV: {fileID: 0}
+    Other_Evnet: 1
+    other_event_arg1: "\u7537\u4E3B"
+    other_event_arg2: "\u7537\u4E3B\u7B11"
+    other_event_arg3: 

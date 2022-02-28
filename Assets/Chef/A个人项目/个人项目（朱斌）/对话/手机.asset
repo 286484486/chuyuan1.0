@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 468bbd4c295446247a5c9fc044a06402, type: 3}
+  m_Name: "\u624B\u673A"
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []
+  Talk:
+  - TalkName: "\u6797\u548C\u5B89"
+    TalkInfo: "\u8FD9\u597D\u50CF\u662F\u59FF\u59FF\u7684\u624B\u673A\uFF0C\u6211\u8BB0\u5F97\u5979\u9AD8\u4E2D\u65F6\u5019\u5C31\u7528\u7684\u8FD9\u4E2A\u54C1\u724C\uFF0C\u552E\u4EF7\u4E00\u76F4\u4E0D\u662F\u5F88\u8D35\u3002"
+    Talk_Event: 0
+    Talk_Style: {fileID: 0}
+    Talk_CV: {fileID: 0}
+    Other_Evnet: 0
+    other_event_arg1: 
+    other_event_arg2: 
+    other_event_arg3: 

@@ -1,0 +1,205 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 468bbd4c295446247a5c9fc044a06402, type: 3}
+  m_Name: "\u5F00\u573A\u5BF9\u8BDD"
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []
+  Talk:
+  - TalkName: 
+    TalkInfo: 
+    Talk_Event: 1
+    Talk_Style: {fileID: 0}
+    Talk_CV: {fileID: 0}
+    Other_Evnet: 1
+    other_event_arg1: "\u7537\u4E3B"
+    other_event_arg2: 
+    other_event_arg3: 
+  - TalkName: "\u6797\u548C\u5B89"
+    TalkInfo: "\u623F\u79DF1500\uFF0C\u6C34\u7535\u53E6\u7B97\uFF0C\u5149\u623F\u79DF\u5C31\u8981\u8FD9\u4E48\u591A\u554A\u2026\u2026\u8FD9\u540E\u9762\u7684\u62BC\u4E8C\u4ED8\u4E00\u53C8\u662F\u4EC0\u4E48\u610F\u601D\uFF1F\u8FD8\u6709\u7BA1\u7406\u8D39\uFF1F\u7BA1\u7406\u4EC0\u4E48\u554A\uFF1F\u5728\u5927\u57CE\u5E02\u79DF\u623F\u597D\u9EBB\u70E6\u554A\uFF01"
+    Talk_Event: 0
+    Talk_Style: {fileID: 0}
+    Talk_CV: {fileID: 8300000, guid: 91fc0da387308ed40a367540ecf8972e, type: 3}
+    Other_Evnet: 2
+    other_event_arg1: "\u7537\u4E3B"
+    other_event_arg2: "\u7537\u4E3B\u7B11"
+    other_event_arg3: Left
+  - TalkName: "\u6797\u548C\u5B89"
+    TalkInfo: "\u7B97\u4E86\u7B97\u4E86\uFF0C\u8FD8\u662F\u56DE\u4E61\u4E0B\u7ED9\u4EBA\u505A\u996D\u5427\u3002"
+    Talk_Event: 0
+    Talk_Style: {fileID: 0}
+    Talk_CV: {fileID: 8300000, guid: 526d49ac2df570946a9cdb31477763fc, type: 3}
+    Other_Evnet: 2
+    other_event_arg1: "\u7537\u4E3B"
+    other_event_arg2: "\u7537\u4E3B\u7B11"
+    other_event_arg3: 
+  - TalkName: 
+    TalkInfo: "\u77ED\u4FE1\u94C3\u58F0"
+    Talk_Event: 0
+    Talk_Style: {fileID: 0}
+    Talk_CV: {fileID: 8300000, guid: 17161d629b1ac704dabbdcb62c2f534c, type: 3}
+    Other_Evnet: 5
+    other_event_arg1: "\u7537\u4E3B"
+    other_event_arg2: F
+    other_event_arg3: 
+  - TalkName: "\u6797\u548C\u5B89"
+    TalkInfo: "\u5C45\u7136\u662F\u59FF\u59FF\u7684\u77ED\u4FE1\uFF0C\u9AD8\u4E2D\u6BD5\u4E1A\u540E\u5C31\u6CA1\u89C1\u8FC7\u4E86\uFF0C\u6CA1\u60F3\u5230\u5979\u8FD8\u5B58\u7740\u6211\u7684\u53F7\u7801\u3002"
+    Talk_Event: 0
+    Talk_Style: {fileID: 0}
+    Talk_CV: {fileID: 8300000, guid: 2f231a46bf49d2e4eb8b0e6e439eed8c, type: 3}
+    Other_Evnet: 5
+    other_event_arg1: "\u7537\u4E3B"
+    other_event_arg2: T
+    other_event_arg3: 
+  - TalkName: "\u6C88\u59FF"
+    TalkInfo: "\u597D\u4E45\u4E0D\u89C1\u4E86\u6797\u548C\u5B89\uFF0C\u542C\u8BF4\u4F60\u4E5F\u6765\u57CE\u91CC\u5DE5\u4F5C\u4E86\uFF0C\u4E0D\u5982\u6211\u4EEC\u5408\u79DF\u5427\uFF01\u6211\u73B0\u5728\u4E00\u4E2A\u4EBA\u4F4F\u3002"
+    Talk_Event: 0
+    Talk_Style: {fileID: 0}
+    Talk_CV: {fileID: 8300000, guid: 14e5f3fb344ecd24da763f2aefaacd56, type: 3}
+    Other_Evnet: 5
+    other_event_arg1: "\u7537\u4E3B"
+    other_event_arg2: F
+    other_event_arg3: 
+  - TalkName: "\u6797\u548C\u5B89"
+    TalkInfo: "\u6211\u6CA1\u770B\u9519\u5427\uFF1F\u5979\u5728\u6C42\u5408\u79DF\uFF1F\n"
+    Talk_Event: 0
+    Talk_Style: {fileID: 0}
+    Talk_CV: {fileID: 8300000, guid: 40225e9a681384d4e9af64a57f471f11, type: 3}
+    Other_Evnet: 5
+    other_event_arg1: "\u7537\u4E3B"
+    other_event_arg2: T
+    other_event_arg3: 
+  - TalkName: "\u6797\u548C\u5B89"
+    TalkInfo: "\u8981\u662F\u5F53\u5E74\u628A\u90A3\u5C01\u4FE1\u7ED9\u4E86\u5979\uFF0C\u6211\u4EEC\u662F\u4E0D\u662F\u65E9\u5C31\u4F4F\u5728\u4E00\u5757\u4E86\u2026\u2026
+      \n"
+    Talk_Event: 0
+    Talk_Style: {fileID: 0}
+    Talk_CV: {fileID: 8300000, guid: b608e4842da79624c9da42e7f101bcf6, type: 3}
+    Other_Evnet: 2
+    other_event_arg1: 
+    other_event_arg2: 
+    other_event_arg3: 
+  - TalkName: 
+    TalkInfo: "\u5915\u9633\u897F\u4E0B\uFF0C\u8857\u9053\u7684\u5468\u56F4\u4F20\u6765\u70E7\u5236\u996D\u83DC\u7684\u9999\u6C14\uFF0C\u7199\u7199\u6518\u6518\u7684\u4EBA\u7FA4\u55A7\u56A3\u7740\u3002"
+    Talk_Event: 0
+    Talk_Style: {fileID: 0}
+    Talk_CV: {fileID: 8300000, guid: 3c7185e0ab6c86646a0f6c9e53f7c763, type: 3}
+    Other_Evnet: 5
+    other_event_arg1: "\u7537\u4E3B"
+    other_event_arg2: F
+    other_event_arg3: 
+  - TalkName: "\u6797\u548C\u5B89"
+    TalkInfo: "\u59FF\u59FF\u8FD8\u6CA1\u6765\u5417\uFF1F"
+    Talk_Event: 0
+    Talk_Style: {fileID: 0}
+    Talk_CV: {fileID: 8300000, guid: 81c9b503dbaedd24f88a758b7d98cd8e, type: 3}
+    Other_Evnet: 5
+    other_event_arg1: "\u7537\u4E3B"
+    other_event_arg2: T
+    other_event_arg3: 
+  - TalkName: "\u6797\u548C\u5B89"
+    TalkInfo: "\u8981\u4E0D\u662F\u623F\u79DF\u5B9E\u5728\u592A\u8D35\uFF0C\u6211\u4E5F\u4E0D\u4F1A\u7B54\u5E94\u5979\uFF0C\u6BD5\u7ADF\u592A\u4E0D\u65B9\u4FBF\u4E86\u3002"
+    Talk_Event: 0
+    Talk_Style: {fileID: 0}
+    Talk_CV: {fileID: 8300000, guid: 724bc7233508be343ba9a2ecb53745d1, type: 3}
+    Other_Evnet: 2
+    other_event_arg1: "\u7537\u4E3B"
+    other_event_arg2: "\u7537\u4E3B\u7B11"
+    other_event_arg3: 
+  - TalkName: "\u6797\u548C\u5B89"
+    TalkInfo: "\u4E0D\u8FC7\u8FD9\u4E48\u4E45\u6CA1\u89C1\u4E86\uFF0C\u5979\u5E94\u8BE5\u8FD8\u662F\u548C\u4EE5\u524D\u4E00\u6837\u6F02\u4EAE\u5427\u2026\u2026"
+    Talk_Event: 0
+    Talk_Style: {fileID: 0}
+    Talk_CV: {fileID: 8300000, guid: 1d0a1caf58786b64db3aff46801326d3, type: 3}
+    Other_Evnet: 2
+    other_event_arg1: "\u7537\u4E3B"
+    other_event_arg2: "\u7537\u4E3B\u7B11"
+    other_event_arg3: 
+  - TalkName: 
+    TalkInfo: "\u4E00\u4F4D\u5BB9\u8C8C\u7F8E\u8273\uFF0C\u65D7\u888D\u88F9\u8EAB\u7684\u5973\u4EBA\u8D70\u5230\u4E86\u6797\u548C\u5B89\u9762\u524D\u3002"
+    Talk_Event: 0
+    Talk_Style: {fileID: 0}
+    Talk_CV: {fileID: 8300000, guid: 8f855d751c19a134fa1ca84624b2fef5, type: 3}
+    Other_Evnet: 5
+    other_event_arg1: "\u7537\u4E3B"
+    other_event_arg2: F
+    other_event_arg3: 
+  - TalkName: 
+    TalkInfo: 
+    Talk_Event: 1
+    Talk_Style: {fileID: 0}
+    Talk_CV: {fileID: 0}
+    Other_Evnet: 5
+    other_event_arg1: "\u7537\u4E3B"
+    other_event_arg2: T
+    other_event_arg3: 
+  - TalkName: "\u795E\u79D8\u5973\u4EBA"
+    TalkInfo: "\u662F\u6797\u548C\u5B89\u5417\uFF1F"
+    Talk_Event: 0
+    Talk_Style: {fileID: 0}
+    Talk_CV: {fileID: 8300000, guid: 2d197f1ae0ed83a4da10be330088797b, type: 3}
+    Other_Evnet: 2
+    other_event_arg1: "\u7537\u4E3B"
+    other_event_arg2: "\u623F\u4E1C1"
+    other_event_arg3: Right
+  - TalkName: "\u6797\u548C\u5B89"
+    TalkInfo: "\u662F\u6211\u2026\u2026\u4F60\u662F\uFF1F"
+    Talk_Event: 0
+    Talk_Style: {fileID: 0}
+    Talk_CV: {fileID: 8300000, guid: edff5002f9a9412439394bda89147629, type: 3}
+    Other_Evnet: 2
+    other_event_arg1: "\u7537\u4E3B"
+    other_event_arg2: "\u7537\u4E3B\u7B11"
+    other_event_arg3: Left
+  - TalkName: "\u795E\u79D8\u5973\u4EBA"
+    TalkInfo: "\u6C88\u59FF\u6765\u4E0D\u4E86\u4E86\uFF0C\u4F60\u76F4\u63A5\u53BB\u5979\u5BB6\u627E\u5979\u5427\uFF0C\u94A5\u5319\u5979\u7ED9\u4F60\u653E\u95E8\u4E0B\u4E86\u3002"
+    Talk_Event: 0
+    Talk_Style: {fileID: 0}
+    Talk_CV: {fileID: 8300000, guid: 286d6bd6deaa1a74187330c42bd01368, type: 3}
+    Other_Evnet: 2
+    other_event_arg1: "\u7537\u4E3B"
+    other_event_arg2: "\u623F\u4E1C1"
+    other_event_arg3: Right
+  - TalkName: 
+    TalkInfo: "\u795E\u79D8\u5973\u4EBA\u7A81\u7136\u4E0D\u89C1\u4E86\uFF01"
+    Talk_Event: 0
+    Talk_Style: {fileID: 0}
+    Talk_CV: {fileID: 8300000, guid: 1422fd24d9ff36f42be0319f3be896a6, type: 3}
+    Other_Evnet: 5
+    other_event_arg1: "\u7537\u4E3B"
+    other_event_arg2: F
+    other_event_arg3: 
+  - TalkName: 
+    TalkInfo: 
+    Talk_Event: 1
+    Talk_Style: {fileID: 0}
+    Talk_CV: {fileID: 0}
+    Other_Evnet: 5
+    other_event_arg1: "\u7537\u4E3B"
+    other_event_arg2: T
+    other_event_arg3: 
+  - TalkName: "\u6797\u548C\u5B89"
+    TalkInfo: "\u600E\u4E48\u7A81\u7136\u4E0D\u89C1\u4E86\uFF1F\u597D\u5947\u602A\u7684\u4EBA\u554A\uFF01"
+    Talk_Event: 0
+    Talk_Style: {fileID: 0}
+    Talk_CV: {fileID: 8300000, guid: 07348957a04797843b6b6964a6f6a2e4, type: 3}
+    Other_Evnet: 2
+    other_event_arg1: "\u7537\u4E3B"
+    other_event_arg2: "\u7537\u4E3B\u7B11"
+    other_event_arg3: Left
