@@ -22,48 +22,23 @@ MonoBehaviour:
     PrefabModifications: []
     SerializationNodes: []
   Talk:
-  - TalkName: 
-    TalkInfo: 
-    Talk_Event: 1
-    Talk_Style: {fileID: 0}
-    Talk_CV: {fileID: 0}
-    Other_Evnet: 1
-    other_event_arg1: "\u7537\u4E3B"
-    other_event_arg2: 
-    other_event_arg3: 
   - TalkName: "\u6797\u548C\u5B89"
     TalkInfo: "\u6211\u8FD9\u662F\u5728\u54EA\uFF1F"
-    Talk_Event: 0
-    Talk_Style: {fileID: 0}
     Talk_CV: {fileID: 0}
-    Other_Evnet: 2
-    other_event_arg1: "\u7537\u4E3B"
-    other_event_arg2: "\u7537\u4E3B\u7B11"
-    other_event_arg3: left
+    Talk_Style: {fileID: 21300000, guid: 25a74704e2af6a94a8241c32d386c7da, type: 3}
+    Talk_Event_List: []
   - TalkName: 
     TalkInfo: "\uFF08\u7EB8\u5316\u7684\u602A\u7269\u7A81\u7136\u5728\u9762\u524D\u95EA\u73B0\uFF01\uFF01\uFF01\uFF09"
-    Talk_Event: 0
-    Talk_Style: {fileID: 0}
     Talk_CV: {fileID: 0}
-    Other_Evnet: 2
-    other_event_arg1: 10
-    other_event_arg2: 
-    other_event_arg3: 
+    Talk_Style: {fileID: 21300000, guid: 17812fde828f5e84c9da21fc55dd025d, type: 3}
+    Talk_Event_List: []
   - TalkName: "\u6797\u548C\u5B89"
     TalkInfo: "\uFF01\uFF01\uFF01"
-    Talk_Event: 0
-    Talk_Style: {fileID: 0}
     Talk_CV: {fileID: 0}
-    Other_Evnet: 2
-    other_event_arg1: "\u7537\u4E3B"
-    other_event_arg2: "\u7537\u4E3B\u7B11"
-    other_event_arg3: 
+    Talk_Style: {fileID: 0}
+    Talk_Event_List: []
   - TalkName: "\u6797\u548C\u5B89"
     TalkInfo: "\u521A\u521A\u90A3\u662F\u4EC0\u4E48\uFF1F\u5E7B\u89C9\u5417\uFF1F"
-    Talk_Event: 0
-    Talk_Style: {fileID: 0}
     Talk_CV: {fileID: 0}
-    Other_Evnet: 1
-    other_event_arg1: "\u7537\u4E3B"
-    other_event_arg2: "\u7537\u4E3B\u7B11"
-    other_event_arg3: 
+    Talk_Style: {fileID: 0}
+    Talk_Event_List: []
