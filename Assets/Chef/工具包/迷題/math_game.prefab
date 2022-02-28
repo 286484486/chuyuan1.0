@@ -195,7 +195,7 @@ MonoBehaviour:
       Data: false
     - Name: 
       Entry: 5
-      Data: false
+      Data: true
     - Name: 
       Entry: 5
       Data: false
@@ -296,6 +296,8 @@ MonoBehaviour:
   block_perfab: {fileID: 2725245473310880606}
   block_get: {fileID: 6597870114828969278}
   touch_prefab: {fileID: 1662616890411546115, guid: 69f265150d004ba45a9ade082058b2f3, type: 3}
+  next_TRI: []
+  next_time: 0
 --- !u!1 &1166209237665345842
 GameObject:
   m_ObjectHideFlags: 0

@@ -23,6 +23,11 @@ public class Qblock_control : SerializedMonoBehaviour
     public float spd_max=500;
 
 
+    [Title("完成后立刻执行的触发器")]
+    [SceneObjectsOnly]
+    public List<GameObject> next_TRI = new List<GameObject>();
+    [Title("下一个触发器廷时触发")]
+    public float next_time = 0;
     // Start is called before the first frame update
 
     void Awake()
@@ -319,6 +324,12 @@ public class Qblock_control : SerializedMonoBehaviour
             Q_mode = 1;
             delay_mode = 0;
             delay = 2;
+            Finish_Tri();
         }
+    }
+
+    public void Finish_Tri()
+    {
+        Game_admin.Next_Tri_set(next_TRI, next_time);
     }
 }

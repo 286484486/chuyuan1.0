@@ -176,9 +176,9 @@ public class Q1_control : MonoBehaviour
                 {
                     delay = 2;
                     delay_mode = 1;
-                    Anima_interface c = new Camera_size_Command(Q_camera.GetComponent<Camera>(), 2300f, 1f, true);
+                    Anima_interface c = new Camera_size_Command(Q_camera, 2300f, 1f, true,0,0,0);
                     Event_Invoker.AddCommand(c);
-                    Anima_interface d = new Camera_size_Command(Camera.main, 2300f, 1f, true);
+                    Anima_interface d = new Camera_size_Command(Camera.main.gameObject, 2300f, 1f, true,0,0,0);
                     Event_Invoker.AddCommand(d);
                 }
                 if (delay <= 0 && delay_mode == 1)

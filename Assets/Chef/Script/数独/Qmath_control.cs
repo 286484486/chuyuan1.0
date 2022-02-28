@@ -3,8 +3,11 @@ using System.Collections.Generic;
 using UnityEngine;
 using Sirenix.OdinInspector;
 
+
 public class Qmath_control : SerializedMonoBehaviour
 {
+
+
     private int delay_mode;
     private float delay;
     public int Q_mode;
@@ -22,7 +25,12 @@ public class Qmath_control : SerializedMonoBehaviour
 
     public GameObject touch_prefab;
 
-    // Start is called before the first frame update
+
+    [Title("完成后立刻执行的触发器")]
+    [SceneObjectsOnly]
+    public List<GameObject> next_TRI = new List<GameObject>();
+    [Title("下一个触发器廷时触发")]
+    public float next_time = 0;
 
     void Awake()
     {
@@ -35,7 +43,7 @@ public class Qmath_control : SerializedMonoBehaviour
             for (int j = 0; j < Math_obj.GetLength(1); j++)
             {
                 touch_obj[i,j]=Instantiate(touch_prefab, transform.parent);
-                touch_obj[i, j].transform.position = new Vector2(transform.position.x - 264 + i * 150, transform.position.y - 264 + j * 150);
+                touch_obj[i, j].transform.position = new Vector2(transform.position.x - 264 + i * 150, transform.position.y + 264 - j * 150);
             }
         }
         transform.parent.gameObject.SetActive(false);
@@ -159,8 +167,8 @@ public class Qmath_control : SerializedMonoBehaviour
         {
             for (int j = 0; j < Math_obj.GetLength(1); j++)
             {
-                if(Math_obj[i,j]==null && Math_Qset[i,j]) { finish = false;break; }
-                if (Math_obj[i, j] != null && !Math_Qset[i, j]) { finish = false; break; }
+                if(Math_obj[i,j]==null && Math_Qset[i,j]) { Debug.Log(Math_obj[i, j]) ; finish = false;break; }
+                if (Math_obj[i, j] != null && !Math_Qset[i, j]) { Debug.Log(Math_obj[i, j]); finish = false; break; }
             }
             if (!finish) { break; }
         }
@@ -170,6 +178,12 @@ public class Qmath_control : SerializedMonoBehaviour
             Q_mode = 1;
             delay_mode = 0;
             delay = 2;
+            Finish_Tri();
         }
+    }
+
+    public void Finish_Tri()
+    {
+        Game_admin.Next_Tri_set(next_TRI, next_time);
     }
 }

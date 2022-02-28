@@ -7,5 +7,4 @@ using Sirenix.OdinInspector;
 public class TalkSaveScript : SerializedScriptableObject
 {
     public List<TalkSaveClass> Talk;
-
 }

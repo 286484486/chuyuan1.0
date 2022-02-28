@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using Spine.Unity;
+using Sirenix.OdinInspector;
 
 public class Qeye_control : MonoBehaviour
 {
@@ -20,6 +21,13 @@ public class Qeye_control : MonoBehaviour
 
     public SkeletonAnimation skeletonAnimation;
     // Start is called before the first frame update
+
+
+    [Title("完成后立刻执行的触发器")]
+    [SceneObjectsOnly]
+    public List<GameObject> next_TRI = new List<GameObject>();
+    [Title("下一个触发器廷时触发")]
+    public float next_time = 0;
     void Start()
     {
         Q_mode = 0;
@@ -129,11 +137,19 @@ public class Qeye_control : MonoBehaviour
                     skeletonAnimation.state.SetAnimation(0, "zhizhu-pa", false);
 
                 }
+                if (delay <= 0 && delay_mode == 5)
+                {
+                    Finish_Tri();
+
+                }
             }
         }
     
     }
 
+    public void Finish_Tri()
+    {
+        Game_admin.Next_Tri_set(next_TRI, next_time);
+    }
 
-    
 }

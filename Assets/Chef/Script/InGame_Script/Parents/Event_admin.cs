@@ -68,8 +68,10 @@ public class Event_admin : SerializedMonoBehaviour
                 var Script = gameObject.AddComponent<Event_visible>();
                 for (int j = 0; j < Event_get[i].visible_obj.Count; j++)
                 {
-
-                    Script.obj.Add(Event_get[i].visible_obj[j], Event_get[i].visible_obj_bool[j]);
+                    if (Event_get[i].visible_obj[j] != null)
+                    {
+                        Script.obj.Add(Event_get[i].visible_obj[j], Event_get[i].visible_obj_bool[j]);
+                    }
                 }
                 Event_p = Script;
             }
@@ -157,6 +159,10 @@ public class Event_admin : SerializedMonoBehaviour
                 Script.size = Event_get[i].Camera_size;
                 Script.Obj_speed = Event_get[i].Camera_Obj_speed;
                 Script.size_mode = Event_get[i].Camera_size_mode;
+
+                Script.is_sizeport = Event_get[i].is_sizeport;
+                Script.is_sizeport_x = Event_get[i].is_sizeport_x;
+                Script.is_sizeport_y = Event_get[i].is_sizeport_y;
 
                 Event_p = Script;
             }

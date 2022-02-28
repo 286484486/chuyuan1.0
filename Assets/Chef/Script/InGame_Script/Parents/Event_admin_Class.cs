@@ -100,6 +100,19 @@ public class Event_admin_Class
     [Title("缩放速度")]
     public float Camera_Obj_speed = 100;
     [ShowIf("Event_get", Enum_Script.缩放摄像头)]
+    [Title("缩放中心点")]
+    public bool is_sizeport;
+    [ShowIf("@is_sizeport && Event_get == Enum_Script.缩放摄像头")]
+    [ShowIfGroup("@is_sizeport")]
+    [BoxGroup("@is_sizeport/缩放中心点")]
+    [Title("缩放中心点x")]
+    public float is_sizeport_x;
+    [ShowIf("@is_sizeport && Event_get == Enum_Script.缩放摄像头")]
+    [ShowIfGroup("@is_sizeport")]
+    [BoxGroup("@is_sizeport/缩放中心点")]
+    [Title("缩放中心点y")]
+    public float is_sizeport_y;
+    [ShowIf("Event_get", Enum_Script.缩放摄像头)]
     [Title("缩放模式")]
     public bool Camera_size_mode;
 

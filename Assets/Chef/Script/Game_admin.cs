@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 using UnityEngine.Audio;
+using Sirenix.OdinInspector;
 
 public class Game_admin : MonoBehaviour
 {
@@ -44,6 +45,8 @@ public class Game_admin : MonoBehaviour
     public static List<GameObject> Back_camera = new List<GameObject>();
     public AudioMixer AudioMixer;   //音效管理
     public GameObject TipsObj;   //提示框
+    [Title("显示触发器")]
+    public bool is_tri_vis; 
 
     void Awake()
     {
@@ -333,4 +336,12 @@ public class Game_admin : MonoBehaviour
             Choose_Menu_Script.Obj_self.SetActive(false);
         }
     }
+
+    public static void Next_Tri_set(List<GameObject> next_TRI,float next_time)
+    {
+        Event_interface c = new Empty_Command();
+        Event_Invoker.AddCommand(c);
+        c.next_TRI_set(next_TRI, next_time);
+    }
+
 }

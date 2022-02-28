@@ -27,13 +27,17 @@ public class Event_parents : SerializedMonoBehaviour
     private float pos_x, pos_y;
     void Awake()
     {
-        gameObject.GetComponent<SpriteRenderer>().color = new Color(1, 1, 1, 0);
+
         //gameObject.SetActive(Script_on);
         pos_x = Camera.main.transform.position.x;
         pos_y = Camera.main.transform.position.y;
     }
     void Start()
     {
+        if (!Game_admin.game_admin_static.is_tri_vis)
+        {
+            gameObject.GetComponent<SpriteRenderer>().color = new Color(1, 1, 1, 0);
+        }
         coll = gameObject.GetComponent<BoxCollider2D>();
         
         Event_Set v_event_set = gameObject.GetComponent<Event_Set>();
