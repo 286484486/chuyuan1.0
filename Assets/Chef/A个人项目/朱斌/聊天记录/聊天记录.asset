@@ -1,0 +1,73 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 468bbd4c295446247a5c9fc044a06402, type: 3}
+  m_Name: "\u804A\u5929\u8BB0\u5F55"
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []
+  Talk:
+  - TalkName: 
+    TalkInfo: "\u59FF\u59FF\uFF01\u4ECA\u5929\u53EF\u662F\u4F60\u7684\u751F\u65E5\uFF0C\u4E0D\u597D\u597D\u5403\u4E00\u987F\u5417\uFF1F"
+    Talk_CV: {fileID: 0}
+    Talk_Style: {fileID: 0}
+    Talk_Event_List: []
+  - TalkName: "\u6C88\u59FF"
+    TalkInfo: "\u4ECA\u5929\u53EF\u4E0D\u884C\uFF0C\u6211\u6709\u4E2A\u5F88\u91CD\u8981\u7684\u9879\u76EE\u5462\uFF0C\u6539\u5929\u518D\u548C\u5927\u5BB6\u805A\u5427\uFF01"
+    Talk_CV: {fileID: 0}
+    Talk_Style: {fileID: 0}
+    Talk_Event_List:
+    - Talk_Event: 0
+      CG_set: {fileID: 21300000, guid: 5d00132c0d509b74ca0baf37d4b09990, type: 3}
+      CG_set_loc: 1
+      CG_set_xsc: 1
+      text_speed: 10
+      text_Talk_mode: 0
+  - TalkName: 
+    TalkInfo: "\u4F60\u4E5F\u592A\u62FC\u4E86\u5427\uFF0C\u751F\u65E5\u8FD8\u8981\u5FD9\u5DE5\u4F5C\u7684\u4E8B\u60C5\u3002"
+    Talk_CV: {fileID: 0}
+    Talk_Style: {fileID: 0}
+    Talk_Event_List:
+    - Talk_Event: 2
+      CG_set: {fileID: 0}
+      CG_set_loc: 0
+      CG_set_xsc: 1
+      text_speed: 10
+      text_Talk_mode: 0
+  - TalkName: "\u6C88\u59FF"
+    TalkInfo: "\u563B\u563B\uFF01\u6539\u5929\u518D\u7ED9\u4F60\u770B\uFF0C\u6211\u4ECA\u5929\u5FC5\u987B\u5F97\u53BB\uFF0C\u8981\u662F\u6210\u4E86\uFF0C\u5988\u5988\u7684\u4E8B\u5C31\u80FD\u5F97\u5230\u7F13\u89E3\u4E86\uFF01\r\n\r\n"
+    Talk_CV: {fileID: 0}
+    Talk_Style: {fileID: 0}
+    Talk_Event_List:
+    - Talk_Event: 0
+      CG_set: {fileID: 21300000, guid: 5d00132c0d509b74ca0baf37d4b09990, type: 3}
+      CG_set_loc: 1
+      CG_set_xsc: 1
+      text_speed: 10
+      text_Talk_mode: 0
+  - TalkName: 
+    TalkInfo: "\u795D\u4F60\u597D\u8FD0"
+    Talk_CV: {fileID: 0}
+    Talk_Style: {fileID: 0}
+    Talk_Event_List:
+    - Talk_Event: 2
+      CG_set: {fileID: 0}
+      CG_set_loc: 0
+      CG_set_xsc: 1
+      text_speed: 10
+      text_Talk_mode: 0

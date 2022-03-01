@@ -26,9 +26,10 @@ MonoBehaviour:
     TalkInfo: "\u8FD9\u597D\u50CF\u662F\u59FF\u59FF\u7684\u624B\u673A\uFF0C\u6211\u8BB0\u5F97\u5979\u9AD8\u4E2D\u65F6\u5019\u5C31\u7528\u7684\u8FD9\u4E2A\u54C1\u724C\uFF0C\u552E\u4EF7\u4E00\u76F4\u4E0D\u662F\u5F88\u8D35\u3002"
     Talk_CV: {fileID: 0}
     Talk_Style: {fileID: 0}
-    Talk_Event_List: []
-  - TalkName: 
-    TalkInfo: 
-    Talk_CV: {fileID: 0}
-    Talk_Style: {fileID: 0}
-    Talk_Event_List: []
+    Talk_Event_List:
+    - Talk_Event: 2
+      CG_set: {fileID: 0}
+      CG_set_loc: 0
+      CG_set_xsc: 1
+      text_speed: 10
+      text_Talk_mode: 0
