@@ -150,6 +150,7 @@ public class Event_admin_Class
     [ShowIf("Event_get", Enum_Script.播放背景音)]
     [Title("播放觸覺")]
     public HapticClip audio_BGM_clip;
+    
 
     [ShowIf("Event_get", Enum_Script.切换场景)]
     [Title("场景名")]
@@ -177,6 +178,11 @@ public class Event_admin_Class
     [Title("文本")]
     [TextArea]
     public string tips_text;
+
+    [ShowIf("Event_get", Enum_Script.镜头抖动)]
+    [Title("抖动时间")]
+    public float camera_jitter_time=1f;
+
 
     [ShowIf("Event_get", Enum_Script.空事件)]
     [Title("直接触发不发生任何事的事件,可用於Next_TRI上")]
@@ -220,8 +226,9 @@ public class Event_admin_Class
         循环音效,
         展现提示框,
         空事件,
-        返回上一个房间
-
+        返回上一个房间,
+        关闭背景音,
+        镜头抖动
     }
 
 

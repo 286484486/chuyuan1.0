@@ -1,0 +1,166 @@
+神龛-左右眼-整理.png
+size:1347,2359
+filter:Linear,Linear
+pma:true
+after left1
+bounds:999,2060,281,140
+offsets:20,1,302,142
+after left2
+bounds:0,1836,288,186
+offsets:1,1,290,187
+after left3
+bounds:0,955,339,289
+offsets:1,1,341,291
+after right1
+bounds:716,2095,283,123
+offsets:1,1,303,125
+after right2
+bounds:1157,1772,288,186
+offsets:1,1,290,187
+rotate:90
+after right3
+bounds:339,916,339,289
+offsets:1,1,341,291
+after shadow left1
+bounds:1073,2200,274,104
+offsets:1,1,277,105
+after shadow left2
+bounds:0,650,333,305
+offsets:2,1,336,307
+after shadow left3
+bounds:0,185,426,542
+offsets:1,1,428,544
+rotate:90
+after shadow right1
+bounds:229,2243,303,74
+offsets:2,2,306,78
+after shadow right2
+bounds:333,611,333,305
+offsets:1,1,336,307
+close eye
+bounds:829,2218,244,88
+offsets:1,1,246,90
+eye
+bounds:532,2237,99,77
+offsets:1,1,101,79
+eye  lock  shadow
+bounds:666,488,337,403
+offsets:57,70,425,579
+rotate:90
+eye white
+bounds:830,2306,210,53
+offsets:1,2,212,56
+finger1
+bounds:0,2341,18,89
+offsets:2,0,21,90
+rotate:90
+finger2
+bounds:89,2341,18,89
+offsets:1,0,21,90
+rotate:90
+front left1
+bounds:0,1244,355,246
+offsets:1,1,357,248
+front left2
+bounds:277,1490,312,238
+offsets:1,1,314,240
+front left3
+bounds:0,2022,372,112
+offsets:1,2,374,115
+front right1
+bounds:288,1728,372,214
+offsets:1,1,374,216
+front right2
+bounds:915,1582,301,232
+offsets:1,1,303,234
+rotate:90
+front right3
+bounds:183,2134,350,103
+offsets:1,1,352,105
+front shadow left1
+bounds:355,1205,348,258
+offsets:1,1,350,261
+front shadow left2
+bounds:660,1701,241,255
+offsets:1,1,248,261
+rotate:90
+front shadow right1
+bounds:905,1341,359,241
+offsets:1,1,361,244
+front shadow right2
+bounds:0,1581,277,255
+offsets:6,5,285,265
+front shadow right3
+bounds:542,0,609,488
+offsets:0,1,609,552
+hammer
+bounds:631,2223,91,105
+offsets:1,1,93,107
+rotate:90
+hand1
+bounds:0,2157,114,183
+offsets:1,47,117,231
+rotate:90
+hand2
+bounds:533,2109,114,183
+offsets:2,47,117,231
+rotate:90
+lamp1
+bounds:372,1956,153,285
+offsets:1,1,163,287
+rotate:90
+lamp2
+bounds:657,1942,153,285
+offsets:9,1,163,287
+rotate:90
+lock
+bounds:589,1463,316,238
+offsets:1,1,318,240
+lock left1
+bounds:322,2317,254,42
+offsets:1,1,256,44
+lock right1
+bounds:576,2314,254,45
+offsets:1,1,256,47
+lock shadow left1
+bounds:1093,2304,229,55
+offsets:1,1,231,57
+lock shadow right1
+bounds:0,2271,229,55
+offsets:1,1,231,57
+lock0
+bounds:942,1883,215,177
+offsets:1,1,217,179
+shadow1
+bounds:703,1083,258,597
+offsets:16,33,284,643
+rotate:90
+shadow2
+bounds:678,825,258,597
+offsets:10,33,284,643
+rotate:90
+wheel 2
+bounds:736,2221,93,93
+offsets:1,1,95,95
+wheel 3
+bounds:1040,2306,53,53
+offsets:1,1,55,55
+white light
+bounds:178,2326,144,33
+offsets:2,1,147,35
+
+神龛-左右眼-整理_2.png
+size:1350,1870
+filter:Linear,Linear
+pma:true
+red light
+bounds:0,0,1350,1870
+offsets:1,1,1352,1872
+
+神龛-左右眼-整理_3.png
+size:1350,2490
+filter:Linear,Linear
+pma:true
+prospect
+bounds:0,0,1350,2490
+offsets:1,1,1352,2492

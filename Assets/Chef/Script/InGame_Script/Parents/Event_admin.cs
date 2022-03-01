@@ -201,6 +201,13 @@ public class Event_admin : SerializedMonoBehaviour
 
                 Event_p = Script;
             }
+            if (Event_get[i].Event_get == Event_admin_Class.Enum_Script.关闭背景音)
+            {
+                var Script = gameObject.AddComponent<Event_BGM_stop>();
+
+
+                Event_p = Script;
+            }
 
             if (Event_get[i].Event_get == Event_admin_Class.Enum_Script.切换场景)
             {
@@ -246,6 +253,14 @@ public class Event_admin : SerializedMonoBehaviour
             if (Event_get[i].Event_get == Event_admin_Class.Enum_Script.返回上一个房间)
             {
                 var Script = gameObject.AddComponent<Event_room_back>();
+
+                Event_p = Script;
+            }
+            if (Event_get[i].Event_get == Event_admin_Class.Enum_Script.镜头抖动)
+            {
+                var Script = gameObject.AddComponent<Event_Camera_jitter>();
+
+                Script.camera_jitter_time = Event_get[i].camera_jitter_time;
 
                 Event_p = Script;
             }
