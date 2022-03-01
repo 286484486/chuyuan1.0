@@ -22,6 +22,7 @@ public class BGM_play_Command : Command_Parents, Event_interface
 
         audioSourecs.clip = audio_BGM;
         audioSourecs.Play();
+        audioSourecs.loop=true;
         if (clip != null) {
             HapticController.Play(clip);
             HapticController.Loop(true);

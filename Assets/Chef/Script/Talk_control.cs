@@ -11,7 +11,7 @@ public class Talk_control : SerializedMonoBehaviour
     private float talk_index;
     private float talk_spd = 10;
     private int last_talk_event, other_event;
-    private string talk_text,other_event_arg1, other_event_arg2, other_event_arg3;
+    private string talk_text,talk_text_last,other_event_arg1, other_event_arg2, other_event_arg3;
     //private string talk_text, talk_type,talk_CV, talk_event, other_event, other_event_arg1, other_event_arg2, other_event_arg3;
     private TalkSaveScript Talk_Script;
     [HideInInspector]
@@ -271,7 +271,7 @@ public class Talk_control : SerializedMonoBehaviour
 
 
 
-
+        talk_text = "";
 
         for (int i = 0; i < Talk_Script.Talk[talk_loc].Talk_Event_List.Count; i++)
         {
@@ -318,24 +318,42 @@ public class Talk_control : SerializedMonoBehaviour
                     canvas_CG.SetActive(true);
                     canvas_talk.SetActive(true);
                     Talk_mode = 0;
+                    T_talk_text.text = "";
                 }
                 if (v_Talk_Event.text_Talk_mode == TalkSaveEvent.Enum_talk_mode.模式2)
                 {
                     canvas_tell.SetActive(true);
                     Talk_mode = 1;
+                    canvas_tell.GetComponentInChildren<Text>().text = "";
                 }
                 if (v_Talk_Event.text_Talk_mode == TalkSaveEvent.Enum_talk_mode.模式3)
                 {
                     canvas_tips.SetActive(true);
                     Talk_mode = 2;
+                    canvas_tips.GetComponentInChildren<Text>().text = "";
                 }
 
 
             }
+            if (v_Talk_Event.Talk_Event == TalkSaveEvent.Enum_Talk_Event.镜头抖动)
+            {
+
+                Anima_interface c = new Camera_jitter_Command(v_Talk_Event.camera_jitter_time);
+                Event_Invoker.AddCommand(c);
+            }
+            if (v_Talk_Event.Talk_Event == TalkSaveEvent.Enum_Talk_Event.廷迟对话)
+            {
+                talk_time = v_Talk_Event.delay_time;
+            }
+            if (v_Talk_Event.Talk_Event == TalkSaveEvent.Enum_Talk_Event.连接上一句)
+            {
+                talk_text += talk_text_last;
+                talk_index = talk_text.Length;
+            }
         }
 
-        T_name.GetComponentInChildren<Text>().text = Talk_Script.Talk[talk_loc].TalkName;
-        talk_text = Talk_Script.Talk[talk_loc].TalkInfo;
+        
+        talk_text += Talk_Script.Talk[talk_loc].TalkInfo;
 
         if (Talk_Script.Talk[talk_loc].Talk_Style != null)
         {
@@ -352,12 +370,13 @@ public class Talk_control : SerializedMonoBehaviour
         {
             talk_histroy.RemoveAt(0);
         }
-        
+
+        talk_text_last = talk_text;
 
 
 
-        
-       
+
+
 
 
     }
@@ -370,6 +389,7 @@ public class Talk_control : SerializedMonoBehaviour
             if (talk_time > 0) { talk_time -= 1 * Time.deltaTime; }
             if (talk_time <= 0)
             {
+                T_name.GetComponentInChildren<Text>().text = Talk_Script.Talk[talk_loc].TalkName;
                 if (talk_index < talk_text.Length)
                 {
                     if (Input.GetMouseButtonUp(0) && talk_index != 0 && Game_admin.Some_mode)

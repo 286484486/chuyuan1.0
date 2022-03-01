@@ -26,7 +26,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 189365526781047556}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 2176, y: -286, z: 0}
+  m_LocalPosition: {x: 2297, y: -602, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 8972447473340714924}
@@ -118,7 +118,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 2349.3489, y: 171.85474}
+  m_Offset: {x: 2525.8481, y: -24.25586}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -129,7 +129,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 265.5796, y: 203.64307}
+  m_Size: {x: 758.0349, y: 369.24805}
   m_EdgeRadius: 0
 --- !u!114 &3461662345282063437
 MonoBehaviour:
@@ -143,13 +143,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fc355bb11422b1a4e9dbc09e3c45cf60, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Watch_dir: 01000100000101000001
+  Watch_dir: 00000100010100010001
   Q_mode: 0
   Spr_Left: {fileID: 21300000, guid: e633b06392d0f234885fa6029c718a34, type: 3}
   Spr_normal: {fileID: 21300000, guid: e7404108645d4a14980488f023c86342, type: 3}
   Spr_Right: {fileID: 21300000, guid: 6d5f2c8cff7f3974393c896df3bc5958, type: 3}
   Eye_obj: {fileID: 3264270365103619869}
   skeletonAnimation: {fileID: 3060462999944840241}
+  next_TRI: []
+  next_time: 0
 --- !u!1 &2537270771829345589
 GameObject:
   m_ObjectHideFlags: 0
@@ -243,16 +245,9 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: dd4dba1e3e5233a4fb0d65a81c9587c2, type: 2}
-  - {fileID: 2100000, guid: 17dfdb3683473cf489e3967132f9249d, type: 2}
-  - {fileID: 2100000, guid: c4dc541bd35978d41b41ee8433a1ea68, type: 2}
-  - {fileID: 2100000, guid: f1abc7c11289f064fb5cf5d1c7855de8, type: 2}
-  - {fileID: 2100000, guid: 652c8910a209d9b46a0d03822b48d9b0, type: 2}
-  - {fileID: 2100000, guid: ccb52a55ddbd6274796bf71d3c8dfd57, type: 2}
-  - {fileID: 2100000, guid: 652c8910a209d9b46a0d03822b48d9b0, type: 2}
-  - {fileID: 2100000, guid: a159a696622e953429386d85773e0c63, type: 2}
-  - {fileID: 2100000, guid: 5effc651468811b428cc0fb93187d8c3, type: 2}
-  - {fileID: 2100000, guid: 96df65f64d7ed9549b8c47dbb7ccb177, type: 2}
+  - {fileID: 2100000, guid: 6dc3be89ed18e9e46b23875fca317cd5, type: 2}
+  - {fileID: 2100000, guid: 445d6eca19de3b04596bd041fbd610a0, type: 2}
+  - {fileID: 2100000, guid: c6aaa1ab05a4ec14799bf323b32ed27b, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -286,7 +281,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d247ba06193faa74d9335f5481b2b56c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  skeletonDataAsset: {fileID: 11400000, guid: 6b06f4fdcc3477d4babe206e902e6f81, type: 2}
+  skeletonDataAsset: {fileID: 11400000, guid: 6be8d066933b429458ae4e42683f7005, type: 2}
   initialSkinName: 
   fixPrefabOverrideViaMeshFilter: 0
   initialFlipX: 0
@@ -309,8 +304,8 @@ MonoBehaviour:
     materialsInsideMask: []
     materialsOutsideMask: []
   disableRenderingOnOverride: 1
-  _animationName: 
-  loop: 1
+  _animationName: 1daiji
+  loop: 0
   timeScale: 1
 --- !u!1 &5970834206466678527
 GameObject:
@@ -338,7 +333,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5970834206466678527}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 2603, y: -269, z: 0}
+  m_LocalPosition: {x: 2802, y: -574, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 8972447473340714924}

@@ -55,26 +55,31 @@ public class Qeye_control : MonoBehaviour
 
     public void Set_Click(bool v_click)
     {
-        if (!v_click) { skeletonAnimation.state.SetAnimation(0, "deng-zuo", false); }
-        else { skeletonAnimation.state.SetAnimation(0, "deng-you", false); }
+        if (!v_click) { skeletonAnimation.state.SetAnimation(0, "×óµÆ", false); }
+        else { skeletonAnimation.state.SetAnimation(0, "ÓÒµÆ", false); }
         bool v_clear=false;
         Set_dir.Add(v_click);
         while (Set_dir.Count > Watch_dir.Count)
         {
             Set_dir.RemoveAt(0);
         }
-        if (Set_dir.Count == Watch_dir.Count)
-        {
+        //if (Set_dir.Count == Watch_dir.Count)
+        //{
             v_clear = true;
-            for (int i = 0; i < Watch_dir.Count; i++)
+            for (int i = 0; i < Set_dir.Count; i++)
             {
                 if (Set_dir[i]!=Watch_dir[i])
                 {
                     v_clear = false;
-                    break;
+                    skeletonAnimation.state.SetAnimation(0, "3mengsuozhengdong", false);
+                    delay = 1;
+                    delay_mode = 6;
+                    Lock = true;
+                break;
                 }
             }
-        }
+        //}
+        if(Set_dir.Count != Watch_dir.Count) { v_clear = false; }
         if (v_clear)
         {
             Lock = true;
@@ -106,11 +111,11 @@ public class Qeye_control : MonoBehaviour
                     delay_mode = 2;
                     if (!Watch_dir[now_loc])
                     {
-                        skeletonAnimation.state.SetAnimation(0, "yan-zuo", false);
+                        skeletonAnimation.state.SetAnimation(0, "2ÑÛ¾¦-×ó", false);
                     }
                     else
                     {
-                        skeletonAnimation.state.SetAnimation(0, "yan-you", false);
+                        skeletonAnimation.state.SetAnimation(0, "2ÑÛ¾¦-ÓÒ", false);
                     }
 
 
@@ -134,9 +139,17 @@ public class Qeye_control : MonoBehaviour
                 {
                     delay = 1;
                     delay_mode = 5;
-                    skeletonAnimation.state.SetAnimation(0, "zhizhu-pa", false);
+                    skeletonAnimation.state.SetAnimation(0, "5pa", false);
 
                 }
+                if(delay<=0 && delay_mode == 6)
+                {
+                    delay = 0;
+                    delay_mode = 0;
+                    Set_dir.Clear();
+                    Lock = false;
+                }
+
                 if (delay <= 0 && delay_mode == 5)
                 {
                     Finish_Tri();
