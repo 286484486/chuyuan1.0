@@ -630,7 +630,7 @@ PrefabInstance:
     - target: {fileID: 5783097177034517040, guid: 3c9a11749ff28dd43bab92c2d212cb81, type: 3}
       propertyPath: serializationData.Prefab
       value: 
-      objectReference: {fileID: 5783097177034517040, guid: 3c9a11749ff28dd43bab92c2d212cb81, type: 3}
+      objectReference: {fileID: 0}
     - target: {fileID: 5783097177034517040, guid: 3c9a11749ff28dd43bab92c2d212cb81, type: 3}
       propertyPath: Event_get.Array.data[0].Talk_key
       value: 
@@ -27312,11 +27312,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4652665050852429794, guid: 72d567531dfcb7e48952e275ce6b6c31, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 1627
+      value: -31
       objectReference: {fileID: 0}
     - target: {fileID: 4652665050852429794, guid: 72d567531dfcb7e48952e275ce6b6c31, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1771
+      value: -10499
       objectReference: {fileID: 0}
     - target: {fileID: 4652665050852429794, guid: 72d567531dfcb7e48952e275ce6b6c31, type: 3}
       propertyPath: m_LocalPosition.z
@@ -42632,11 +42632,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4872170869853798545, guid: 3c9a11749ff28dd43bab92c2d212cb81, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -13912
+      value: -13797
       objectReference: {fileID: 0}
     - target: {fileID: 4872170869853798545, guid: 3c9a11749ff28dd43bab92c2d212cb81, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1630
+      value: -1745
       objectReference: {fileID: 0}
     - target: {fileID: 4872170869853798545, guid: 3c9a11749ff28dd43bab92c2d212cb81, type: 3}
       propertyPath: m_LocalPosition.z
