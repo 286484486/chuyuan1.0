@@ -183,11 +183,15 @@ public class Event_admin_Class
     [Title("抖动时间")]
     public float camera_jitter_time=1f;
 
-
-    [ShowIf("Event_get", Enum_Script.空事件)]
-    [Title("直接触发不发生任何事的事件,可用於Next_TRI上")]
-    [ShowIf("Event_get", Enum_Script.返回上一个房间)]
-    [Title("返回上一个房间")]
+    [ShowIf("Event_get", Enum_Script.播放Spine动画)]
+    [Title("物件")]
+    public GameObject Spine_obj;
+    [ShowIf("Event_get", Enum_Script.播放Spine动画)]
+    [Title("动画名称")]
+    public string Spine_anime_name;
+    [ShowIf("Event_get", Enum_Script.播放Spine动画)]
+    [Title("是否循环")]
+    public bool Spine_loop;
 
     [Title("条件触发")]
     public bool Condition_on_bool = true;
@@ -228,7 +232,8 @@ public class Event_admin_Class
         空事件,
         返回上一个房间,
         关闭背景音,
-        镜头抖动
+        镜头抖动,
+        播放Spine动画
     }
 
 

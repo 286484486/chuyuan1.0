@@ -36,15 +36,7 @@ MonoBehaviour:
     TalkInfo: "\uFF01\uFF01\uFF01"
     Talk_CV: {fileID: 0}
     Talk_Style: {fileID: 0}
-    Talk_Event_List:
-    - Talk_Event: 4
-      CG_set: {fileID: 0}
-      CG_set_loc: 0
-      CG_set_xsc: 1
-      text_speed: 10
-      text_Talk_mode: 0
-      camera_jitter_time: 1
-      delay_time: 1
+    Talk_Event_List: []
   - TalkName: "\u6797\u548C\u5B89"
     TalkInfo: "\u521A\u521A\u90A3\u662F\u4EC0\u4E48\uFF1F\u5E7B\u89C9\u5417\uFF1F"
     Talk_CV: {fileID: 0}

@@ -13,9 +13,9 @@ public class Qmath_control : SerializedMonoBehaviour
     public int Q_mode;
 
 
-    private GameObject[,] Math_obj = new GameObject[6, 6];
-    private GameObject[,] touch_obj = new GameObject[6, 6];
-    public bool[,] Math_Qset = new bool[6, 6];
+    private GameObject[,] Math_obj = new GameObject[4, 6];
+    private GameObject[,] touch_obj = new GameObject[4, 6];
+    public bool[,] Math_Qset = new bool[4, 6];
     private GameObject now_obj,move_obj;
     private int now_i, now_j,move_mode;
     private float move_x, move_y;
@@ -43,10 +43,11 @@ public class Qmath_control : SerializedMonoBehaviour
             for (int j = 0; j < Math_obj.GetLength(1); j++)
             {
                 touch_obj[i,j]=Instantiate(touch_prefab, transform.parent);
-                touch_obj[i, j].transform.position = new Vector2(transform.position.x - 264 + i * 150, transform.position.y + 264 - j * 150);
+                touch_obj[i, j].transform.position = new Vector2(transform.position.x - 138 + i * 93, transform.position.y + 290 - j * 96);
+                touch_obj[i, j].GetComponent<SpriteRenderer>().color=new Color(1, 1, 1, 0);
             }
         }
-        transform.parent.gameObject.SetActive(false);
+        //transform.parent.gameObject.SetActive(false);
     }
 
     void Start()
