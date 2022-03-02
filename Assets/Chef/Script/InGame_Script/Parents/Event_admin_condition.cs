@@ -86,8 +86,4 @@ public class Event_admin_condition: SerializedMonoBehaviour
     [Title("Í¼Æ¬", HorizontalLine = false)]
     public List<bool> image_vis = new List<bool>();
 
-    /*
-    [DictionaryDrawerSettings(KeyLabel = "Îï¼þ", ValueLabel = "ÏÔÊ¾")]
-    public Dictionary<GameObject, bool> image_vis = new Dictionary<GameObject, bool>();
-    */
 }

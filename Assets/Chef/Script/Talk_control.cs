@@ -85,6 +85,7 @@ public class Talk_control : SerializedMonoBehaviour
         Obj_speed_down = 0;
         Obj_speed_mode = "target";
         Talk_mode = 0;
+        T_talk_text.text = "";
         canvas_CG.SetActive(true);
         canvas_talk.SetActive(true);
         canvas_tell.SetActive(false);

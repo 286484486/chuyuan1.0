@@ -264,6 +264,17 @@ public class Event_admin : SerializedMonoBehaviour
 
                 Event_p = Script;
             }
+            if (Event_get[i].Event_get == Event_admin_Class.Enum_Script.²¥·ÅSpine¶¯»­)
+            {
+                var Script = gameObject.AddComponent<Event_Spine_Play>();
+
+                Script.Spine_obj = Event_get[i].Spine_obj;
+                Script.Spine_anime_name = Event_get[i].Spine_anime_name;
+                Script.Spine_loop = Event_get[i].Spine_loop;
+
+                Event_p = Script;
+            }
+
 
             if (Event_p != null)
             {
@@ -351,7 +362,11 @@ public class Event_admin : SerializedMonoBehaviour
                             }
 
                             Event_p.E_condition.Add(Script);
+
+                            Destroy(Event_get[i].Condition_index[k].gameObject);
                         }
+
+                        
                     }
                 }
             }
@@ -360,19 +375,7 @@ public class Event_admin : SerializedMonoBehaviour
             {
                 Event_p.next_TRI_L = Event_get[i].next_TRI;
                 Event_p.next_time = Event_get[i].next_time;
-                /*
-                if (Event_get[i].next_on_bool)
-                {
-                    for (int k = 0; k < Event_get[i].next_TRI.Count; k++)
-                    {
-                        var sc = Event_get[i].next_TRI[k];
-                        if (sc != null)
-                        {
-                            Event_p.next_TRI_L=Event_
-                        }
-                    }
-                }
-                */
+
             }
 
 

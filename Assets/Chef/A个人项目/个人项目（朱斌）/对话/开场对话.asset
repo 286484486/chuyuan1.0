@@ -23,7 +23,7 @@ MonoBehaviour:
     SerializationNodes: []
   Talk:
   - TalkName: 
-    TalkInfo: "\u706B\u7EA2\u7684\u971E\u5149\u67D3\u7EA2\u7684\u5929\u7A7A\uFF0C\u8857\u9053\u4E0A\u4F20\u6765\u4EBA\u7FA4\u7684\u55A7\u56A3\u3002"
+    TalkInfo: "\u706B\u7EA2\u7684\u971E\u5149\u67D3\u7EA2\u7684\u5929\u7A7A\uFF0C\u8857\u9053\u4E0A\u4F20\u6765\u4EBA\u7FA4\u7684\u55A7\u56A3\uFF0C\u800C\u6797\u548C\u5B89\u7684\u8111\u6D77\u91CC\u5219\u4E00\u76F4\u56DE\u8361\u7740\u4E00\u4E2A\u58F0\u97F3\u3002"
     Talk_CV: {fileID: 8300000, guid: c6b56378c0043514398572c020404517, type: 3}
     Talk_Style: {fileID: 0}
     Talk_Event_List:
@@ -33,21 +33,6 @@ MonoBehaviour:
       CG_set_xsc: 1
       text_speed: 10
       text_Talk_mode: 1
-      camera_jitter_time: 1
-      delay_time: 1
-  - TalkName: 
-    TalkInfo: 
-    Talk_CV: {fileID: 8300000, guid: 17161d629b1ac704dabbdcb62c2f534c, type: 3}
-    Talk_Style: {fileID: 0}
-    Talk_Event_List:
-    - Talk_Event: 2
-      CG_set: {fileID: 0}
-      CG_set_loc: 0
-      CG_set_xsc: 1
-      text_speed: 10
-      text_Talk_mode: 0
-      camera_jitter_time: 1
-      delay_time: 1
   - TalkName: "\u6C88\u59FF"
     TalkInfo: "\u597D\u4E45\u4E0D\u89C1\u5566\u6797\u548C\u5B89\uFF01\u542C\u8BF4\u4F60\u4E5F\u6765\u8FD9\u5EA7\u57CE\u5E02\u5DE5\u4F5C\u4E86\uFF0C\u4E0D\u5982\u8DDF\u6211\u4E00\u8D77\u5408\u79DF\u5427\uFF0C\u6211\u73B0\u5728\u4E00\u4E2A\u4EBA\u4F4F\u3002"
     Talk_CV: {fileID: 8300000, guid: 87811ac5840139142882a86fab5e3475, type: 3}
@@ -59,16 +44,12 @@ MonoBehaviour:
       CG_set_xsc: 1
       text_speed: 10
       text_Talk_mode: 0
-      camera_jitter_time: 1
-      delay_time: 1
     - Talk_Event: 3
       CG_set: {fileID: 0}
       CG_set_loc: 0
       CG_set_xsc: 1
       text_speed: 10
       text_Talk_mode: 0
-      camera_jitter_time: 1
-      delay_time: 1
   - TalkName: "\u6797\u548C\u5B89"
     TalkInfo: "\u6CA1\u60F3\u5230\u8FD9\u4E48\u591A\u5E74\u8FC7\u53BB\u4E86\uFF0C\u59FF\u59FF\u8FD8\u5B58\u7740\u6211\u7684\u53F7\u7801\u2026\u2026"
     Talk_CV: {fileID: 8300000, guid: 5068fda5cb65b994580e10e77379dcb6, type: 3}
@@ -80,8 +61,6 @@ MonoBehaviour:
       CG_set_xsc: 1
       text_speed: 10
       text_Talk_mode: 0
-      camera_jitter_time: 1
-      delay_time: 1
   - TalkName: "\u6797\u548C\u5B89"
     TalkInfo: "\u7B49\u4E00\u4E0B\u5C31\u8981\u89C1\u5230\u5979\u4E86\uFF0C\u4E00\u5B9A\u8981\u51B7\u9759\u3002"
     Talk_CV: {fileID: 8300000, guid: 9ec0efce745dc894b92d41fac525e76c, type: 3}
@@ -103,8 +82,6 @@ MonoBehaviour:
       CG_set_xsc: 1
       text_speed: 10
       text_Talk_mode: 1
-      camera_jitter_time: 1
-      delay_time: 1
   - TalkName: "\u795E\u79D8\u5973\u4EBA"
     TalkInfo: "\u662F\u6797\u548C\u5B89\u5417\uFF1F"
     Talk_CV: {fileID: 8300000, guid: 22ba42087e534914e8b8c52c747fd875, type: 3}
@@ -116,16 +93,12 @@ MonoBehaviour:
       CG_set_xsc: 1
       text_speed: 10
       text_Talk_mode: 0
-      camera_jitter_time: 1
-      delay_time: 1
     - Talk_Event: 3
       CG_set: {fileID: 0}
       CG_set_loc: 0
       CG_set_xsc: 1
       text_speed: 10
       text_Talk_mode: 0
-      camera_jitter_time: 1
-      delay_time: 1
   - TalkName: "\u6797\u548C\u5B89"
     TalkInfo: "\u662F\u6211\u2026\u2026\u4F60\u662F\uFF1F"
     Talk_CV: {fileID: 8300000, guid: 7a0d0f9fcac64cc4c9c6849f764bd66a, type: 3}
@@ -137,8 +110,6 @@ MonoBehaviour:
       CG_set_xsc: 1
       text_speed: 10
       text_Talk_mode: 0
-      camera_jitter_time: 1
-      delay_time: 1
   - TalkName: "\u795E\u79D8\u5973\u4EBA"
     TalkInfo: "\u6C88\u59FF\u6709\u4E8B\u4E0D\u6765\u4E86\uFF0C\u4F60\u76F4\u63A5\u53BB\u5979\u5BB6\u770B\u623F\uFF0C\u94A5\u5319\u5979\u7ED9\u4F60\u653E\u95E8\u4E0B\u4E86\u3002"
     Talk_CV: {fileID: 8300000, guid: adb0112594c4bd1449a8f77ba49b8048, type: 3}
@@ -150,8 +121,6 @@ MonoBehaviour:
       CG_set_xsc: 1
       text_speed: 10
       text_Talk_mode: 0
-      camera_jitter_time: 1
-      delay_time: 1
   - TalkName: 
     TalkInfo: "\u795E\u79D8\u5973\u4EBA\u8BF4\u5B8C\u6CA1\u518D\u7406\u4F1A\u6797\u548C\u5B89\uFF0C\u4ECE\u6797\u548C\u5B89\u8EAB\u65C1\u8D70\u8FC7\u3002"
     Talk_CV: {fileID: 8300000, guid: 1422fd24d9ff36f42be0319f3be896a6, type: 3}
@@ -163,8 +132,6 @@ MonoBehaviour:
       CG_set_xsc: 1
       text_speed: 10
       text_Talk_mode: 1
-      camera_jitter_time: 1
-      delay_time: 1
   - TalkName: "\u6797\u548C\u5B89"
     TalkInfo: "\u5979\u8D70\u8DEF\u600E\u4E48\u5E26\u98CE\u554A\uFF1F\u9634\u9634\u51C9\u51C9\u7684\uFF1F"
     Talk_CV: {fileID: 8300000, guid: cef50693aaa518b49882fab700f8c78d, type: 3}
@@ -176,13 +143,9 @@ MonoBehaviour:
       CG_set_xsc: 1
       text_speed: 10
       text_Talk_mode: 0
-      camera_jitter_time: 1
-      delay_time: 1
     - Talk_Event: 3
       CG_set: {fileID: 0}
       CG_set_loc: 0
       CG_set_xsc: 1
       text_speed: 10
       text_Talk_mode: 0
-      camera_jitter_time: 1
-      delay_time: 1
