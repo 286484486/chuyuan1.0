@@ -250,7 +250,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2609684015842938849, guid: df0d671c1e78c1e4aa34f68466937919, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
-      value: Stroy1_Scenes
+      value: "\u5367\u5BA4"
       objectReference: {fileID: 0}
     - target: {fileID: 2609684015842938849, guid: df0d671c1e78c1e4aa34f68466937919, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
