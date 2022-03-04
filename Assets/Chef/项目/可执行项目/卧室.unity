@@ -25338,7 +25338,11 @@ PrefabInstance:
     - target: {fileID: 5783097177034517040, guid: 3c9a11749ff28dd43bab92c2d212cb81, type: 3}
       propertyPath: serializationData.Prefab
       value: 
-      objectReference: {fileID: 5783097177034517040, guid: 3c9a11749ff28dd43bab92c2d212cb81, type: 3}
+      objectReference: {fileID: 0}
+    - target: {fileID: 5783097177034517040, guid: 3c9a11749ff28dd43bab92c2d212cb81, type: 3}
+      propertyPath: Event_get.Array.data[0].Talk_key
+      value: 
+      objectReference: {fileID: 11400000, guid: 50312421a8a231e40af1de09a0f43682, type: 2}
     - target: {fileID: 5783097177034517040, guid: 3c9a11749ff28dd43bab92c2d212cb81, type: 3}
       propertyPath: Event_get.Array.data[0].Event_get
       value: 5
@@ -38556,12 +38560,16 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5783097177034517040, guid: 3c9a11749ff28dd43bab92c2d212cb81, type: 3}
       propertyPath: Event_get.Array.size
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 5783097177034517040, guid: 3c9a11749ff28dd43bab92c2d212cb81, type: 3}
       propertyPath: serializationData.Prefab
       value: 
-      objectReference: {fileID: 5783097177034517040, guid: 3c9a11749ff28dd43bab92c2d212cb81, type: 3}
+      objectReference: {fileID: 0}
+    - target: {fileID: 5783097177034517040, guid: 3c9a11749ff28dd43bab92c2d212cb81, type: 3}
+      propertyPath: Event_get.Array.data[2].Talk_key
+      value: 
+      objectReference: {fileID: 11400000, guid: 26fe1facf681be6449d1211600689ad7, type: 2}
     - target: {fileID: 5783097177034517040, guid: 3c9a11749ff28dd43bab92c2d212cb81, type: 3}
       propertyPath: Event_get.Array.data[0].Event_get
       value: 1
@@ -38575,6 +38583,14 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 8300000, guid: 527a696673fec4d4aa31bc3836d0d83e, type: 3}
     - target: {fileID: 5783097177034517040, guid: 3c9a11749ff28dd43bab92c2d212cb81, type: 3}
+      propertyPath: Event_get.Array.data[2].Event_get
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5783097177034517040, guid: 3c9a11749ff28dd43bab92c2d212cb81, type: 3}
+      propertyPath: Event_get.Array.data[2].loop_mode
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5783097177034517040, guid: 3c9a11749ff28dd43bab92c2d212cb81, type: 3}
       propertyPath: Event_get.Array.data[1].audio_clip
       value: 
       objectReference: {fileID: -8404250095460277587, guid: 3f57ced2797242e4d8b3ce33211deac2, type: 3}
@@ -38587,11 +38603,19 @@ PrefabInstance:
       value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 5783097177034517040, guid: 3c9a11749ff28dd43bab92c2d212cb81, type: 3}
+      propertyPath: Event_get.Array.data[2].Move_Obj_speed
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 5783097177034517040, guid: 3c9a11749ff28dd43bab92c2d212cb81, type: 3}
       propertyPath: Event_get.Array.data[0].Camera_Obj_speed
       value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 5783097177034517040, guid: 3c9a11749ff28dd43bab92c2d212cb81, type: 3}
       propertyPath: Event_get.Array.data[1].Camera_Obj_speed
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 5783097177034517040, guid: 3c9a11749ff28dd43bab92c2d212cb81, type: 3}
+      propertyPath: Event_get.Array.data[2].Camera_Obj_speed
       value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 5783097177034517040, guid: 3c9a11749ff28dd43bab92c2d212cb81, type: 3}
@@ -38603,6 +38627,14 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5783097177034517040, guid: 3c9a11749ff28dd43bab92c2d212cb81, type: 3}
+      propertyPath: Event_get.Array.data[2].Condition_on_bool
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5783097177034517040, guid: 3c9a11749ff28dd43bab92c2d212cb81, type: 3}
+      propertyPath: Event_get.Array.data[2].camera_jitter_time
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5783097177034517040, guid: 3c9a11749ff28dd43bab92c2d212cb81, type: 3}
       propertyPath: Event_get.Array.data[0].Switch_obj.Array.size
       value: 1
       objectReference: {fileID: 0}
@@ -38610,6 +38642,10 @@ PrefabInstance:
       propertyPath: Event_get.Array.data[0].Switch_obj.Array.data[0]
       value: 
       objectReference: {fileID: 1991050396}
+    - target: {fileID: 5783097177034517040, guid: 3c9a11749ff28dd43bab92c2d212cb81, type: 3}
+      propertyPath: Event_get.Array.data[1].Condition_index.Array.size
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3c9a11749ff28dd43bab92c2d212cb81, type: 3}
 --- !u!1001 &1974160941
